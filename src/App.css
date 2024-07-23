@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.calculator {
+  display: inline-block;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
